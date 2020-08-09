@@ -1,15 +1,8 @@
 # asdf-R
 
+[![Build Status](https://api.travis-ci.org/n8sty/asdf-R.svg?branch=master)](https://travis-ci.com/n8sty/asdf-R)
+
 [R](https://www.r-project.org/) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager.
-
-## Dependencies
-
-* Mac
-    1. [Homebrew](https://brew.sh): used to install the remainder of the dependencies
-    1. ```brew install gcc xz```
-* Linux
-    * Ubuntu / Debian
-        1. ```sudo apt-get install build-essential libcurl3-dev libreadline-dev gfortran```
 
 ## Install
 
@@ -19,7 +12,7 @@ asdf plugin-add R https://github.com/iroddis/asdf-R.git
 
 ## ASDF options
 
-Check [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to install & manage versions of R.
+Check [asdf](https://github.com/asdf-vm/asdf) for instructions on how to install and manage versions of R.
 
 When installing R using `asdf install`, you can pass custom configure options with the following env vars:
 
@@ -30,3 +23,6 @@ When installing R using `asdf install`, you can pass custom configure options wi
 
 Thanks to [asdf-postgres](http://github.com/smashedtoatoms/asdf-postgres) for providing an awesome plugin
 that was easy to modify for this language.
+
+Thanks to the original author of this package [@iroddis](https://github.com/iroddis/) for the original
+inspiration and doing the vast majority of the work.
